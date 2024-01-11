@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfolio.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+    <!--importando fontes-->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');</style>  
+</head>
+
+<body>
+<!--Barra Fixa--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div  class="div_bar">
+        <h1 class="h1_bar" href="#">Meu portfolio</h1>
+        <a class="p_bar" href="#Home">Home </a>
+        <a class="p_bar" href="#About">About </a>
+        <a class="p_contactbar" href="#Contactme">Contact me </a>
+    </div>
+<!--linha dividindo nome foto e barra fixa-->
+    <hr id="Home" class="hr_bar">
+    
+<!--Nome e Foto --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div  class="Nome_Foto">
+
+        <div  class="Nome"> <!-- Separei em 2 divs, uma para foto outra para o nome.-->
+            <p class="p_nome">Oi, me chamo Gabriel Fillip.</p>
+            <p class="p_sobre">Sou um estudante de Desenvolvimento de software multiplataforma, que sonha se tornar desenvolvedor.</p>
+            <a href="https://www.linkedin.com/in/gabriel-fillip-a1ba0b258/" class="a_contactme">Contact me  <svg  class="contcme_seta" xmlns="http://www.w3.org/2000/svg" width="1vw" height="1vw" viewBox="0 0 17 16" fill="none">
+                <path d="M16.7676 2.09567C16.8235 1.53061 16.4363 1.02968 15.9026 0.976807L7.20579 0.115199C6.67211 0.0623259 6.19409 0.477536 6.13811 1.0426C6.08213 1.60766 6.46938 2.10859 7.00306 2.16146L14.7336 2.92734L13.9227 11.1124C13.8667 11.6775 14.2539 12.1784 14.7876 12.2313C15.3213 12.2841 15.7993 11.8689 15.8553 11.3039L16.7676 2.09567ZM1.81895 15.4675L16.4129 2.7911L15.1896 1.20878L0.595724 13.8852L1.81895 15.4675Z" fill="black"/>
+                </svg> <!-- Seta ao lado do Mais sobre mim--></a>
+            
+        </div>
+
+        <div class="Foto"> 
+            <img src="img/Eu.jpg" alt="Minha foto" class="img_nomefoto">
+        </div>
+
+    </div>
+    <div class="divfotomobile">
+        <img src="img/Eu.jpg" alt="Minha foto" class="img_nomefoto">
+    </div>
+
+    <!--Sobre--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div id="About" class="Sobre">
+
+        <div class="Div1_Sobre">
+            <p class="p1_Sobre"> Sobre</p> <!-- Separei em 2 divs, paragrafo 1 e paragrafo 2.-->
+            <p class="p2_Sobre"> atualmente trabalho em um escritório de contabilidade mas não é minha area de interesse.
+                Sempre tive “facilidade” com a técnologia, ingressei na area de T.I. em 2020 realizando um curso de 
+                informatica na MICROCAMP de Franca-SP, desde então decidi que minha área profissional será esta. </p>
+            <a href="https://www.linkedin.com/in/gabriel-fillip-a1ba0b258/" class="a1_sobre"> Mais sobre mim</a> 
+            <svg xmlns="http://www.w3.org/2000/svg" class="mobileseta" width="1vw" height="1vw" viewBox="0 0 17 16" fill="none">
+                <path d="M16.7676 2.09567C16.8235 1.53061 16.4363 1.02968 15.9026 0.976807L7.20579 0.115199C6.67211 0.0623259 6.19409 0.477536 6.13811 1.0426C6.08213 1.60766 6.46938 2.10859 7.00306 2.16146L14.7336 2.92734L13.9227 11.1124C13.8667 11.6775 14.2539 12.1784 14.7876 12.2313C15.3213 12.2841 15.7993 11.8689 15.8553 11.3039L16.7676 2.09567ZM1.81895 15.4675L16.4129 2.7911L15.1896 1.20878L0.595724 13.8852L1.81895 15.4675Z" fill="black"/>
+                </svg> <!-- Seta ao lado do Mais sobre mim-->
+        </div>
+
+        <div class="Div2_Sobre">
+            <p class="p3_Sobre"> Não atuo na area mas procuro vaga de qualquer ramo do serviço, tendo facilidade em
+                Front-End e Noções Basicas em Design, procuro me desafiar e aprender novas tecnologias sempre, 
+                nunca me acomodando. </p> 
+                <a  class="a1_sobremobile"> Mais sobre mim</a>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mobileseta1" viewBox="0 0 17 16" fill="none">
+                    <path d="M16.7676 2.09567C16.8235 1.53061 16.4363 1.02968 15.9026 0.976807L7.20579 0.115199C6.67211 0.0623259 6.19409 0.477536 6.13811 1.0426C6.08213 1.60766 6.46938 2.10859 7.00306 2.16146L14.7336 2.92734L13.9227 11.1124C13.8667 11.6775 14.2539 12.1784 14.7876 12.2313C15.3213 12.2841 15.7993 11.8689 15.8553 11.3039L16.7676 2.09567ZM1.81895 15.4675L16.4129 2.7911L15.1896 1.20878L0.595724 13.8852L1.81895 15.4675Z" fill="black"/>
+                    </svg> <!-- Seta ao lado do Mais sobre mim-->
+        </div>
+        
+    </div>
+
+    <!--Portifolio--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Aqui tive que separar em 3 <div> uma para o titulo e duas para os cards.-->
+    <div class="div_titleport">
+    <p class="P_portf"> Portfolio</p> <!--Titulo do portfolio-->
+    <a href="https://github.com/GabrielFillip" class="a_verport"> Ver portfolio </a>
+    <svg xmlns="http://www.w3.org/2000/svg" class="mobileseta2" width="1vw" height="1vw" viewBox="0 0 17 16" fill="none" style="margin: 2.9% 0px 0px 0px;">
+        <path d="M16.7676 2.09567C16.8235 1.53061 16.4363 1.02968 15.9026 0.976807L7.20579 0.115199C6.67211 0.0623259 6.19409 0.477536 6.13811 1.0426C6.08213 1.60766 6.46938 2.10859 7.00306 2.16146L14.7336 2.92734L13.9227 11.1124C13.8667 11.6775 14.2539 12.1784 14.7876 12.2313C15.3213 12.2841 15.7993 11.8689 15.8553 11.3039L16.7676 2.09567ZM1.81895 15.4675L16.4129 2.7911L15.1896 1.20878L0.595724 13.8852L1.81895 15.4675Z" fill="black"/>
+        </svg> <!--Seta ao lado do Mais sobre mim--> 
+    </div>
+
+    <div class="Portfolio">  
+        <div class="div_calc" onclick="LinkCalc()"> 
+        <img src="img/python2.png" alt="Simbolo Python" class="img_python">
+        <p class="p_calc"> Calculadora </p> <!--Titulo-->
+        <p class="p2_calc">Calculadora capaz de executar todas as operações, feita 100% em Python com a biblioteca Tkinter. </p>
+        </div>
+
+        <div class="div_venus" onclick="LinkCasavenus()"> 
+            <img src="img/Casa venus.png" alt="Logo Casa Vênus" class="img_venus">
+            <p class="p_venus"> Casa Vênus </p> <!--Titulo-->
+            <p class="p2_venus">Um site basico com função de “cardapio”  para uma loja de cristais utilizando HTML e CSS.</p>
+        </div>
+    </div>
+    
+    <div class="Portfolio2">
+        <div class="div_BD" onclick="LinkBD()"> 
+            <img src="img/logo sql server.png" alt="Simbolo SQL Server" class="img_bd">
+            <p class="p_bd"> Banco de dados Apollo Rotas </p> <!--Titulo-->
+            <p class="p2_bd">Banco de dados coompleto feito em SQL server. Contém: Modelo DER, Modelo lógico, Modelagem física e pesquisas.</p>
+        </div>
+    
+        <div class="div_Apollo" onclick="LinkApollo()"> 
+            <img src="img/logo.png" alt="Simbolo SQL Server" class="img_apollo">
+            <p class="p_apollo"> Apollo Rotas</p> <!--Titulo-->
+            <p class="p2_apollo">um site de viagens feito em conjunto, contendo 5 paginas, para diferentes serviços prestados em uma agencia de viagens.</p>
+        </div>  
+    </div>      
+
+    <!--Footer------------------------------------------------------------------------------------------------------------------------------------------------------>
+    
+    <hr class="hr_footer"> <!--Linha separando footer do resto do site-->
+
+    <div id="Contactme" class="Footer">
+        <p class="p1_footer">Meu portfolio</p>
+        <a href="#Home"  class="a1_footer">Home</a>
+        <a href="#About"  class="a2_footer">About</a>
+        <a href="https://www.instagram.com/xzgabrielfxz/"  class="a_insta"> Instagram </a>                         
+        <a href="https://www.linkedin.com/in/gabriel-fillip-a1ba0b258/"   class="a_linkedin">Linkedin</a>                   
+        <a class="a3_footer">Contact me</a>
+        <div class="FooterdoFooter">
+            <hr style="border-color:black">
+            <p class="p_footerdofooter"> Desenvolvido por Gabriel Fillip.
+            </p>
+        </div>
+    </div>
+    
+    
+
+
+<!--Fim do codigo-->
+</body>
+</html>
